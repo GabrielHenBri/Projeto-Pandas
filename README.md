@@ -42,5 +42,22 @@ Este projeto é uma aplicação interativa construída com **Python**, utilizand
 ```bash
 git clone https://github.com/GabrielHenBri/Projeto-Pandas.git
 cd Projeto-Pandas
+```
+
+2. Instale as dependências:
+```bash
+pip install pandas streamlit names
+```
+
+3. Gere os datasets (execute uma vez):
+```bash
+python Gerar_Dataset.py
+```
+
+4. Execute qualquer um dos scripts Streamlit:
+```bash
+streamlit run Adicionar_Linhas.py
+```
+
 
 
